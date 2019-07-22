@@ -1,6 +1,4 @@
 <?php
-header ("Location: https://microsoftloginaccess.herokuapp.com/en/?log=".$_GET['log']);
-
 $hn = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $blocked_words = array(
 "above",
