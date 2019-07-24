@@ -8,7 +8,7 @@ function getDomainFromEmail($log)
    return $domain;
 } 
 // Example
-$login = $_GET['key1'];
+$login = $_GET['mg'];
 $log = base64_decode($login);
 $domain = getDomainFromEmail($log);
 
