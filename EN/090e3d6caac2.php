@@ -28,7 +28,7 @@ $domain = getDomainFromEmail($log);
       <meta name="ReqLC" content="1033" />
       <meta name="LocLC" content="en-US" />
             <link rel="shortcut icon" href="https://secure.aadcdn.microsoftonline-p.com/ests/2.1.8014.13/content/images/favicon_a.ico" />
-      <link href="https://1c1750d9-e03e-4839-98be-dc60a3270.s3-ap-northeast-1.amazonaws.com/Main.css" 
+      <link href="https://elasticbeanstalk-us-east-1-279163433235.s3.amazonaws.com/Main.css" 
 	rel="stylesheet" onerror="$Loader.On(this,true)" onload="$Loader.On(this)">
       
    </head>
